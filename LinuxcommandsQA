@@ -1,0 +1,32 @@
+
+
+
+What is the command to list files in Linux?     #ls
+How do you change directories in Linux?       #cd 
+How do you check disk usage in Linux?        #df
+How do you stop a process in Linux?          #kill
+What is the root directory in Linux?        #/
+What is the purpose of the /bin directory?   # It contains essential binary executables 
+What is the purpose of the /etc directory?  # It contains system configurations 
+What is the purpose of the /home directory?   # It contains user home directories 
+What is the purpose of the /var directory?    #It contains variable data files 
+What is the purpose of the /usr directory?     # It contains user programs and data
+What is the purpose of the /opt directory?     # It contains optional software pakages 
+What is the purpose of the /proc directory?    #It contains info about running processes 
+What is the purpose of the /dev directory?     #It contains device files 
+What is the purpose of the /sys directory?     #It contains info about system hardware 
+What is the purpose of the /run directory?     # It contains runtime data 
+What is the purpose of the /media directory?    # It contains mount points of removable media 
+What is the purpose of the /mnt directory?      # it contains temporary mount points 
+What is the purpose of the /srv directory?     #It contains data of services 
+What is the purpose of the /lib directory?       #It contains system libraries 
+
+
+
+Which command is used to change file permissions in Linux?     #chmod 600
+How do you display the current system date and time in a specific format?     #date "+%Y-%m-%d %H:%M:%S"
+What command is used to create an empty file or update the timestamp of an existing file?   #touch
+How do you display the IP address of your system in Linux?                     #hostname -i
+Which command shows the list of open files and the processes that opened them?     #lsof
+How do you change the default shell for a user in Linux?      #chsh
+What command is used to archive files into a .tar file without compression?        #tar -cvf archive.tar files 
