@@ -1,0 +1,42 @@
+>>>Create a EC2 instance in AWS 
+>>>Download pem file 
+>>>Connect to VM using public IP 
+>>>ssh -i /user/example/test.pem ubuntu@12.34.45.67           # -i for identity file 
+>>> chmod 600 /user/example/test.pem                          # Chanage pem file permissions to access
+
+touch test.txt          # to create a file 
+ls
+ls -ltr                 # shows list of files in current directory along with properties, permissions, owner groups details 
+mkdir testdir           # to create a new directory 
+pwd                     # shows present working directory 
+vim test1.txt           # makes test1 file editable, if file not present it will create one 
+cat test1.txt           # to view/read  the content of file 
+cd testmkdir/    cd..  cd ../..       # change directory 
+rm 
+rm -r                   #remove a directory 
+df -h                   # shows avaiable free disk space 
+nproc                   # display no.of CPU's a VM has 
+free -g                 # shows memory usage of PC/VM 
+man
+./ file name            # to execute any file 
+history                 # shows all executed commands history
+sudo su -               # switch user/ root user 
+set -x                  # debug mode in shell 
+set -e                  # exit the script when there is an error in executable file 
+set -o pipefail         # skip error if any command execution fails (ignore errors)
+ctr+c                   # to stop script execution 
+ps -ef                  # lists  all running process 
+ps -ef | grep "ERROR"   #  grep to filter particylar information with a key word 
+ps -ef | grep "ERROR" | awk -F " " '{print $3}'      # awk to filter only required colums from the output file 
+curl <url>               # to view log files from a storage account 
+wget <url>               # downloads eeror log file to local 
+find test.txt            # to find a file from all avaialble files 
+trap "rm-rf*" SIGIT      # to trap signals  <to safegaurd our file/ command execution from interruptions in the middle by other users>
+traceroute url           # to track signals path from VM to router 
+logrotate
+sort file.txt            # to sort file contents 
+
+
+
+
+
